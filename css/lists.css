@@ -1,0 +1,41 @@
+body{
+	background-color: violet;
+}
+p{
+	font-family: "Pacifico", cursive;
+	font-size: 50px;	
+	text-align: center;
+	color: lightblue;
+	background-color: yellow;
+}
+ul,ol{
+	font-size: 24px;
+	color: green;
+}
+.l1 li::marker{
+	color: orange;
+	font-size: 1.1em;
+}
+.l2 li{
+	padding-left: 10px;
+}
+ol{
+	margin-left: 50px;
+}
+@counter-style emoji {
+  system: cyclic;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+  suffix: " ";
+}
+.l3{
+	list-style: emoji;
+}
+
+@counter-style alpha {
+  system: alphabetic;
+  symbols: А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ю Я;
+  suffix: " ";
+}
+.l4{
+	list-style:alpha ;
+}
