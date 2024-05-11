@@ -1,8 +1,8 @@
 body{
-	background-color: blue;
+	background-color: #A516CF;
 }
 header{
-	background-color: yellow;
+	background-color: #9E75DA;
 	height: 250px;
 	
 }
@@ -34,7 +34,7 @@ h2{
 nav,aside{
 	width: 20%;
 	float: left;
-	background-color: lightgreen;
+  background-color: #9E75DA;
 }
 .glow-button {
   text-decoration: none;
@@ -54,12 +54,12 @@ nav,aside{
 }
 main{
 	width: 60%;
-	background-color: red;
+	background-color: #6A39AD;
 	float: left;
 }
 footer{
 	height: 200px;
-	background-color: green;
+	background-color: #9E75DA;
 	clear: both;
 }
 article{
