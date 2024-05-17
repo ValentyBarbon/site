@@ -1,0 +1,46 @@
+body{
+	background-color: lightblue;
+}
+p{
+	font-size: 50px;
+	background-color: lightgreen;
+	color: pink;
+}
+label{
+	font-size: 24px;
+	color: green;
+}
+input.inp{
+	font-size: 24px;
+	color: green;
+}
+.inp2{
+	width: 32px;
+}
+
+.in1{
+	display: block;
+	margin-bottom: 20px;
+height: 1cm;
+font-size: 24px;
+font-family: cursive;
+color: darkviolet;
+}
+.s1,.s2{
+	font-size: 24px;
+}
+.s2{
+color: cadetblue;
+}
+.in3{
+	width: 30px;
+	height: 30px;
+	background-color: lightpink;
+}
+.in4{
+	width: 150px;
+	height: 50px;
+	font-size: 24px;
+	color: #67FF55;
+	border: dashed 5px green;
+} 
